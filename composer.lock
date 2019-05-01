@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f2799e84c6b73c672337b9b74f336a1",
+    "content-hash": "3187a5aeaf71de97fe3f8410f4efa83e",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1400,16 +1400,16 @@
         },
         {
             "name": "stream/junkman",
-            "version": "1.0",
+            "version": "v1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ydtg1993/JunkMan.git",
-                "reference": "abbf32535e6e017a00d68f1dee5dfbf2daf7a5e5"
+                "reference": "c17f246878fba9c0d60fea424e8191f43e862ff8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ydtg1993/JunkMan/zipball/abbf32535e6e017a00d68f1dee5dfbf2daf7a5e5",
-                "reference": "abbf32535e6e017a00d68f1dee5dfbf2daf7a5e5",
+                "url": "https://api.github.com/repos/ydtg1993/JunkMan/zipball/c17f246878fba9c0d60fea424e8191f43e862ff8",
+                "reference": "c17f246878fba9c0d60fea424e8191f43e862ff8",
                 "shasum": ""
             },
             "require": {
@@ -1440,7 +1440,7 @@
                 }
             ],
             "description": "php运行环境代码段实时监控,gc日志收集分析",
-            "time": "2019-04-27T17:38:58+00:00"
+            "time": "2019-05-01T14:06:36+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
