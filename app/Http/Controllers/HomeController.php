@@ -31,14 +31,14 @@ class HomeController
 
         $data['message'] = "thank your bask";
         JunkMan::stream()->end();
-        Redirect::action("index");
+        return Redirect('');
     }
 
     public function spot()
     {
         $message = "thank your bask";
         JunkMan::spot()->dot('dot watch',$message);
-        Redirect::action("index");
+        return Redirect('');
     }
 
     public function flood()
@@ -54,6 +54,6 @@ class HomeController
 
         $data['message'] = "thank your bask";
         JunkMan::flood()->end();
-        Redirect::action("index");
+        return Redirect('');
     }
 }
