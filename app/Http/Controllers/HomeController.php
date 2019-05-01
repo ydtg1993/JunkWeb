@@ -36,6 +36,9 @@ class HomeController
 
     public function spot()
     {
+        $info = new InfoController();
+        $data = $info->getInfo();
+        JunkMan::spot()->dot('dot object watch',$data);
         $message = "thank your bask";
         JunkMan::spot()->dot('dot watch',$message);
         return Redirect('');
